@@ -91,3 +91,17 @@
 2025-12-09 14:07:39,979 - INFO - The status has changed to 'stopped'.
 2025-12-09 14:07:44,064 - INFO - Trip finished.
 2025-12-09 14:07:51,964 - DEBUG - App closed. Come back soon.
+2025-12-09 15:03:40,248 - INFO - Trip started. Initial state: 'stopped'.
+2025-12-09 15:03:42,532 - INFO - The status has changed to 'moving'.
+2025-12-09 15:03:47,503 - INFO - The status has changed to 'stopped'.
+2025-12-09 15:03:50,011 - INFO - Trip finished.
+2025-12-09 15:03:54,257 - DEBUG - App closed. Come back soon.
+2025-12-09 17:02:43,962 - INFO - Trip started. Initial state: 'stopped'.
+2025-12-09 17:02:46,115 - INFO - The status has changed to 'moving'.
+2025-12-09 17:02:48,049 - INFO - The status has changed to 'stopped'.
+2025-12-09 17:02:50,783 - INFO - The status has changed to 'moving'.
+2025-12-09 17:03:16,165 - INFO - Trip finished.
+2025-12-09 17:03:27,765 - ERROR - You must start the trip first.
+2025-12-09 17:03:30,732 - ERROR - You must start the trip first.
+2025-12-09 17:03:55,315 - ERROR - There are no active trips.
+2025-12-09 17:04:06,224 - DEBUG - App closed. Come back soon.
