@@ -86,3 +86,8 @@
 2025-12-09 13:49:30,378 - INFO - The status has changed to 'stopped'.
 2025-12-09 13:49:32,998 - INFO - Trip finished.
 2025-12-09 13:49:41,121 - DEBUG - App closed. Come back soon.
+2025-12-09 14:07:36,366 - INFO - Trip started. Initial state: 'stopped'.
+2025-12-09 14:07:38,343 - INFO - The status has changed to 'moving'.
+2025-12-09 14:07:39,979 - INFO - The status has changed to 'stopped'.
+2025-12-09 14:07:44,064 - INFO - Trip finished.
+2025-12-09 14:07:51,964 - DEBUG - App closed. Come back soon.

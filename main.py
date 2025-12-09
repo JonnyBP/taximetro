@@ -40,7 +40,7 @@ logging.basicConfig(
 
 def calculate_fare(sec_stopped, sec_moving):    # Function to calculate rate
     fare = sec_stopped * 0.02 + sec_moving * 0.05
-    print(f"Total for the trip: {fare}\n")
+    print(f"Total for the trip: €{fare:.2f}\n")
     return fare
 
 def calculate_time(state, stopped_time, moving_time, start_time):   # Function to calculate time
