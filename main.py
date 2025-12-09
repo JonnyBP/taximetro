@@ -1,5 +1,35 @@
 import time
 import logging
+import datetime
+import os
+
+
+record_file = "Record.txt"
+
+def trip_record(move_time, stop_time, total_fare):  # Save the history of an entire trip
+    
+    # Format to write
+    timestamp = datetime.datetime.now().strftime("%Y-%m-%d %H:%M:%S")
+    
+    line_record = (
+        f"[{timestamp}] "
+        f"MOVING: {move_time:.2f}s | "
+        f"STOPPED: {stop_time:.2f}s | "
+        f"FARE: ${total_fare:.2f}\n"
+    )
+
+    # Add a new line to the file
+    try:
+        with open(record_file, "a") as f:
+            f.write(line_record)
+        return True
+    except IOError as e:
+        
+        print(f"ERROR: Could not write to file {record_file}. {e}")
+        logging.error(f"Could not write to file: {e}")
+        return False
+    
+
 
 logging.basicConfig(
     level=logging.DEBUG,  # Minimum level of messages to display (DEBUG, INFO, WARNING, ERROR, CRITICAL)
@@ -87,7 +117,8 @@ def taximeter():    # Function to manage and display options
             print(stopped_time) # Check times
             print(moving_time)
 
-            calculate_fare(stopped_time, moving_time) # Function to calculate rate
+            fare = calculate_fare(stopped_time, moving_time) # Function to calculate rate
+            trip_record(moving_time, stopped_time, fare)
 
             # Reset variables
             trip_active = False
