@@ -246,3 +246,20 @@
 2025-12-10 23:11:56,747 - DEBUG - Rates: Moving= 0.09, Stopped= 0.08
 2025-12-10 23:12:00,082 - WARNING - You must start the trip first.
 2025-12-10 23:12:05,926 - INFO - App closed. Come back soon.
+2025-12-11 12:55:18,642 - DEBUG - Taximeter initialized with customized rates.
+2025-12-11 12:55:21,971 - INFO - Trip started. Initial state: 'stopped'.
+2025-12-11 12:55:23,106 - INFO - The status has changed to 'moving'.
+2025-12-11 12:55:24,451 - INFO - The status has changed to 'stopped'.
+2025-12-11 12:55:25,837 - INFO - The status has changed to 'moving'.
+2025-12-11 12:55:26,961 - INFO - The status has changed to 'stopped'.
+2025-12-11 12:55:28,667 - INFO - Trip finished.
+2025-12-11 12:55:30,623 - INFO - App closed. Come back soon.
+2025-12-11 12:55:41,729 - DEBUG - Rates: Moving= 0.05, Stopped= 0.05
+2025-12-11 12:55:43,645 - INFO - Trip started. Initial state: 'stopped'.
+2025-12-11 12:55:44,668 - INFO - The status has changed to 'moving'.
+2025-12-11 12:55:45,850 - INFO - The status has changed to 'stopped'.
+2025-12-11 12:55:50,079 - WARNING - A trip is already in progress
+2025-12-11 12:55:52,390 - INFO - The status has changed to 'moving'.
+2025-12-11 12:55:55,046 - INFO - The status has changed to 'stopped'.
+2025-12-11 12:56:00,324 - INFO - Trip finished.
+2025-12-11 12:56:04,810 - INFO - App closed. Come back soon.
