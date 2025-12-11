@@ -8,7 +8,7 @@ import os
 # ==============================================================================
 
 record_file = "Record.txt"
-
+base_rate = 2.0
 
 def trip_record(move_time, stop_time, total_fare):  # Save the history of an entire trip
     
@@ -34,7 +34,7 @@ def trip_record(move_time, stop_time, total_fare):  # Save the history of an ent
         return False
 
 def calculate_fare(sec_stopped, sec_moving, fare_stopped, fare_moving):    # Function to calculate rate
-    fare = sec_stopped * fare_stopped + sec_moving * fare_moving
+    fare = (sec_stopped * fare_stopped + sec_moving * fare_moving) + base_rate
     #print(fare_stopped,fare_moving)
     print(f"Total for the trip: €{fare:.2f}\n")
     return fare
@@ -107,7 +107,7 @@ class TaximeterLogic:
         self.state = new_state
 
         logging.info(f"The status has changed to '{new_state}'.")
-        return f"🔰   The status has changed to '{new_state}'."
+        print(f"🔰   The status has changed to '{new_state}'.")
         
     def finish_trip(self):
         if self.trip_active == False:
@@ -125,8 +125,7 @@ class TaximeterLogic:
         logging.info("Trip finished.")
     
     # Function for GUI
-    def get_status(self):
-        """Devuelve el estado actual para la GUI."""
+    def get_status(self):   # Returns the current status for the GUI
         return {
             "active": self.trip_active,
             "state": self.state,
@@ -134,7 +133,6 @@ class TaximeterLogic:
             "stopped_time": self.stopped_time,
             "total_fare": self.fare if not self.trip_active else 0.0
         }
-
 
 def custom_fare():  # Request rates from the user 
     
@@ -208,7 +206,6 @@ def taximeter(logic):
         else:
             print("⚠️   Unknown command.")
             logging.warning("Unknown command.")
-
 
 if __name__ == "__main__":
     stopped, moving = custom_fare()

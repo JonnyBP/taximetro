@@ -103,4 +103,5 @@ Una vez que el programa está en ejecución, te dará la bienvenida y mostrará 
 *   **Interfaz Gráfica de Usuario (GUI)**: Desarrollar una interfaz visual (usando `Tkinter` , `PyQt` o `Streamlit`) para que el uso del taxímetro sea más intuitivo.
 *   **Exportar Recibos Individuales**: Añadir una función para guardar el resumen de un viaje específico en un archivo PDF o de texto como si fuera un recibo.
 
+https://www.notion.so/Project-1-De-Cero-a-Aplicaci-n-de-Consola-Creando-un-Simulador-de-Tax-metro-en-Python-2c4abdea458e80f4bb6ad935b3e3906a?source=copy_link
 ---

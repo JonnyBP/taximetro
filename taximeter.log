@@ -519,3 +519,21 @@
 2025-12-11 20:41:48,234 - INFO - The status has changed to 'moving'.
 2025-12-11 20:41:49,599 - INFO - The status has changed to 'stopped'.
 2025-12-11 20:41:50,539 - INFO - Trip finished.
+2025-12-11 22:22:39,822 - INFO - Trip started. Initial state: 'stopped'.
+2025-12-11 22:22:40,847 - INFO - The status has changed to 'moving'.
+2025-12-11 22:22:41,988 - INFO - The status has changed to 'stopped'.
+2025-12-11 22:22:43,454 - INFO - Trip finished.
+2025-12-11 22:54:37,693 - INFO - Trip started. Initial state: 'stopped'.
+2025-12-11 22:54:38,782 - INFO - The status has changed to 'moving'.
+2025-12-11 22:54:39,930 - INFO - The status has changed to 'stopped'.
+2025-12-11 22:54:40,857 - INFO - The status has changed to 'moving'.
+2025-12-11 22:54:41,737 - INFO - The status has changed to 'stopped'.
+2025-12-11 22:54:42,927 - WARNING - A trip is already in progress
+2025-12-11 22:54:44,481 - INFO - Trip finished.
+2025-12-11 22:56:10,021 - INFO - Trip started. Initial state: 'stopped'.
+2025-12-11 22:56:11,240 - INFO - The status has changed to 'moving'.
+2025-12-11 22:56:12,162 - INFO - The status has changed to 'stopped'.
+2025-12-11 22:56:12,846 - INFO - The status has changed to 'moving'.
+2025-12-11 22:56:13,469 - INFO - The status has changed to 'stopped'.
+2025-12-11 22:56:15,202 - WARNING - A trip is already in progress
+2025-12-11 22:56:16,646 - INFO - Trip finished.
